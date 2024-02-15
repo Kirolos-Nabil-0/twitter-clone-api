@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import User, { UserDocument } from "../models/User"; // Correct import statement for the User model
+import User, { UserDocument } from "../models/User";
 
 export const getAllUsers = async (
   req: Request,
